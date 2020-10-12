@@ -1,2 +1,3 @@
 # SENN_Project
-Building the SENN Project
+The semantic emotion neural network (SENN) can utilize both semantic and emotion information by adopting existing pre-trained word embeddings. SENN is divided into two sub-networks. The first network uses BiLSTM to capture semantic information map it into semantic-sentence space, the second network uses CNN to capture emotion information and map it into emotion-sentence space. CNN is supposed to be good at extracting position invariant features such as emotion terms and BiLSTM at modeling units in sequence of long semantics in whole sentence. We have tried to implement the model by taking help from the original paper.
+
